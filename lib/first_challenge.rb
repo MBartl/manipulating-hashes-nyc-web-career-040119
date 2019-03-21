@@ -15,7 +15,7 @@ def first_challenge
 
   #your code here
   contacts.each do |key, value|
-    if key == :favorite_icecream_flavors
+    if key == "favorite_icecream_flavors"
       value.delete_if { |x| x == strawberry }
     end
   end
